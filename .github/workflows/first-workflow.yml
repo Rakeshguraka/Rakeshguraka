@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print welcome message 
-        run: echo "Welcome to github actions:
+        run: echo "Welcome to github actions"
       - name: performing actions
         run: echo "printing the current working directory"; ls

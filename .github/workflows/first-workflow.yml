@@ -7,4 +7,4 @@ jobs:
       - name: print welcome message 
         run: echo "Welcome to github actions"
       - name: performing actions
-        run: echo "printing the current working directory"; ls
+        run: echo "printing the current working directory"; pwd
